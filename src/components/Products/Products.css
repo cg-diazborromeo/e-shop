@@ -1,3 +1,15 @@
+.products-cards-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: 50px;
+}
+
+.card {
+  margin: 50px;
+}
+
 .card button {
   border: none;
   outline: 0;

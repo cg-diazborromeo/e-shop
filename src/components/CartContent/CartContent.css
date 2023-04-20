@@ -1,0 +1,21 @@
+.cart-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 30px;
+}
+
+.cart-content > img {
+  height: 120px;
+  width: 100px;
+  text-align: center;
+}
+
+.cart-total {
+  text-align: center;
+}
+
+.cart-message {
+  text-align: center;
+  margin-top: 40px;
+}
