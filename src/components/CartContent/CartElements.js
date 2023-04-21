@@ -1,5 +1,6 @@
 import { useContext } from "react";
 import { dataContext } from "../Context/DataContext";
+import CartItemCounter from "./CartItemCounter";
 
 const CartElements = () => {
   const { cart } = useContext(dataContext);
@@ -9,7 +10,8 @@ const CartElements = () => {
       <div className="cart-content" key={product.id}>
         <img src={product.img} alt="game-art" />
         <h3 className="name">{product.name}</h3>
-        <h4 className="price">${product.price}</h4>
+        <CartItemCounter product={product} />
+        <h4 className="price">${product.price * product.quantity}</h4>
       </div>
     );
   });
