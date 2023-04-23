@@ -11,6 +11,10 @@
   height: 15vh;
 }
 
+.navbar a {
+  text-decoration: none;
+}
+
 .navbar-logo {
   justify-self: start;
   margin-left: 20px;
